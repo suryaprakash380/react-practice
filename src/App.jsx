@@ -12,7 +12,7 @@ setTitle("My name is " + Math.random());
       <button onClick={updateTitle} >Update the title</button><br />
       <Header title={title}></Header><br />
       <Header title="Surya2"></Header><br />
-      <button>Hello</button>
+      <button onClick={() => console.log('button clicked')}>Hello</button>
     </Fragment>
   )
 }
